@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html lang="en">
 
 <head>
@@ -62,4 +63,70 @@
 
 </body>
 
+=======
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diablo 4 Hub</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/htmx.org@1.6.1"></script>
+</head>
+
+<body>
+    <a href="https://www.wowhead.com/diablo-4/build-planner" alt="Build Planner">
+        <div class="card">
+            <div class="wrapper">
+                <img src="./srcs/bd4back.png" class="cover-image" />
+            </div>
+            <img src="./srcs/wowhead.png" class="title" />
+            <img src="./srcs/necromancer.webp" class="character" />
+        </div>
+    </a>
+
+    <a href="https://mobalytics.gg/diablo-4/tier-list" alt="Mobalytics/Diablo 4">
+        <div class="card">
+            <div class="wrapper">
+                <img src="./srcs/ramd4.webp" class="cover-image" />
+            </div>
+            <img src="./srcs/mobalytics.png" class="title" />
+            <img src="./srcs/barbarian.webp" class="character" />
+        </div>
+    </a>
+
+    <a href="https://diablo.trade" alt="Mobalytics/Diablo 4">
+        <div class="card">
+            <div class="wrapper">
+                <img src="./srcs/bbd43.png" class="cover-image" />
+            </div>
+            <img src="./srcs/d4market.png" class="title" />
+            <img src="./srcs/rogue.webp" class="character" />
+        </div>
+    </a>
+
+
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;">
+        <script>
+            // Fetch the JSON data from your package.json file
+            fetch("../package.json").then(response => response.json()).then(data => {
+                // Get the version number from the data
+                const version = data.version;
+
+                // Get the element where you want to display the version number
+                const versionDisplay = document.getElementById("version-display");
+
+                // Update the text of the element with the version number
+                // @ts-ignore
+                versionDisplay.textContent = `The latest version: ${version}`;
+            });
+        </script>
+        <p id="version-display" style="color: white;"></p>
+    </footer>
+</body>
+
+</body>
+
+>>>>>>> 53a323bb0f5f3811ac66c7f6608a7a218e474e55
 </html>
