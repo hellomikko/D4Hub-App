@@ -8,3 +8,5 @@ sites in-which I normally do regardless of the 4 screens I use. So I created thi
 skills also.
 - If you enjoy or find use of this app, please hit the ⭐ button top right! Id appriciate it.
 - If you are too a developer like myself, would like to contribute to this, please hit the **Fork** button.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cbc41a09-d8c8-4dc1-96af-066c27d2cd3c/deploy-status)](https://app.netlify.com/sites/diablo4hub/deploys)
