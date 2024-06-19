@@ -2,6 +2,11 @@
 
 Welcome to the D4 Hub Application repository! This application is designed for educational purposes and personal convenience while gaming, allowing access to various tools without leaving the game window.
 
+![image](https://github.com/nolvuscodes/D4Hub-App/assets/49461213/1eac281e-29d1-4b3f-8c24-b44ddc3be3a9)
+
+You can also preview the live beta version before its pushed out into an app here https://d4hubapp.vercel.app
+
+
 If you find this app useful, please consider giving it a ⭐️!
 
 ## Table of Contents
