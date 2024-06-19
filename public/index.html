@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <a href="https://www.wowhead.com/diablo-4/build-planner" alt="Build Planner" target="_blank">
+    <a href="https://www.wowhead.com/diablo-4/build-planner" alt="Build Planner">
         <div class="card">
             <div class="wrapper">
                 <img src="./srcs/bd4back.png" class="cover-image" />
@@ -20,7 +20,7 @@
         </div>
     </a>
 
-    <a href="https://mobalytics.gg/diablo-4/tier-list" alt="Mobalytics/Diablo 4" target="_blank">
+    <a href="https://mobalytics.gg/diablo-4/tier-list" alt="Mobalytics/Diablo 4">
         <div class="card">
             <div class="wrapper">
                 <img src="./srcs/ramd4.webp" class="cover-image" />
@@ -30,7 +30,7 @@
         </div>
     </a>
 
-    <a href="https://diablo.trade" alt="Mobalytics/Diablo 4" target="_blank">
+    <a href="https://diablo.trade" alt="Mobalytics/Diablo 4">
         <div class="card">
             <div class="wrapper">
                 <img src="./srcs/bbd43.png" class="cover-image" />
@@ -41,8 +41,25 @@
     </a>
 
 
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;">
+        <script>
+            // Fetch the JSON data from your package.json file
+            fetch("../package.json").then(response => response.json()).then(data => {
+                // Get the version number from the data
+                const version = data.version;
 
-    <script src="app.js"></script>
+                // Get the element where you want to display the version number
+                const versionDisplay = document.getElementById("version-display");
+
+                // Update the text of the element with the version number
+                // @ts-ignore
+                versionDisplay.textContent = `The latest version: ${version}`;
+            });
+        </script>
+        <p id="version-display" style="color: white;"></p>
+    </footer>
+</body>
+
 </body>
 
 </html>
