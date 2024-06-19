@@ -1,17 +1,35 @@
 {
   "name": "d4hub-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "vupdate": "node update-version.js"
+    "vupdate": "node update-version.js",
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "RaidBossMike/Nolvus",
   "license": "MIT",
-  "description": "",
-  "dependencies": {
-    "electron": "^31.0.1"
+  "description": "Diablo 4 Hub is a place where you will be able to find things all Diablo 4. You can also start creating your own builds and even share them with others.",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.d4hub.d4hubapp",
+    "productName": "D4 Hub",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": true
+    }
   }
 }

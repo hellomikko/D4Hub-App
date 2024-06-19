@@ -3,7 +3,7 @@ const path = require('path');
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
-        width: 1650,
+        width: 1450,
         height: 800,
         frame: true,
         webPreferences: {
@@ -36,7 +36,8 @@ function createWindow() {
                     { label: 'Developers', click() { mainWindow.loadURL('https://github.com/nolvuscodes/D4Hub-App/blob/main/README.md#contributing') } },
                     { label: 'Documentation', click() { mainWindow.loadURL('https://github.com/nolvuscodes/D4Hub-App/wiki') } },
                     { label: 'Community Discussions', click() { mainWindow.loadURL('https://github.com/nolvuscodes/D4Hub-App/discussions') } },
-                    { label: 'Search Issues', click() { mainWindow.loadURL('https://github.com/nolvuscodes/D4Hub-App/issues') } }
+                    { label: 'Search Issues', click() { mainWindow.loadURL('https://github.com/nolvuscodes/D4Hub-App/issues') } },
+                    { label: 'Check for Latest Version', click() { mainWindow.loadURL('https://github.com/nolvuscodes/D4Hub-App/releases') } }
                 ]
             }
         ];
