@@ -21,6 +21,7 @@ Thank you for considering contributing to D4 Hub! Here's how you can get started
 1. **Fork** the repository.
 2. Make your changes in your forked copy.
 3. Submit a **Pull Request** detailing your contributions.
+4. When and if your pushing the repo, it goes directly to the "devs" tree.
 
 ## Acknowledgements
 
@@ -29,7 +30,5 @@ Thank you for considering contributing to D4 Hub! Here's how you can get started
 
 ---
 
-### Note:
+### Notes:
 
-- Feel free to customize the "Acknowledgements" section with specific contributors or other acknowledgements as your project evolves.
-- Replace `[contributors]` with actual contributors as your project gains traction.
